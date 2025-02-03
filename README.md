@@ -9,9 +9,9 @@
 
 ## Cấu hình tệp môi trường
 Tạo tệp .env trong thư mục gốc của dự án và thêm các thông
-GEMINI_API_KEY
-QDRANT_API_KEY
-QRANT_URL
+- GEMINI_API_KEY
+- QDRANT_API_KEY
+- QRANT_URL
 Thêm các tài liệu cần truy xuất vào folder docs
 
 ## Chạy ứng dụng
