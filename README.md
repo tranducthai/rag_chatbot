@@ -1,19 +1,28 @@
-# RAG Chatbot - Hệ thống Truy Xuất và Tạo Văn Bản
-## Cài đặt
-- git clone https://github.com/tranducthai/rag_chatbot.git
-- cd rag_chatbot
+# RAG Chatbot - Retrieval-Augmented Generation System
 
-- python -m venv venv
-- source venv/bin/activate  # trên Linux/macOS
-- venv\Scripts\activate     # trên Windows
+## Installation
 
-## Cấu hình tệp môi trường
-Tạo tệp .env trong thư mục gốc của dự án và thêm các thông
-- GEMINI_API_KEY
-- QDRANT_API_KEY
-- QRANT_URL
+- `git clone https://github.com/tranducthai/rag_chatbot.git`
+- `cd rag_chatbot`
+- `python -m venv venv`
+- Activate the virtual environment:
+  - On Linux/macOS: `source venv/bin/activate`
+  - On Windows: `venv\Scripts\activate`
 
-Thêm các tài liệu cần truy xuất vào folder docs
+## Configure Environment Variables
 
-## Chạy ứng dụng
-python m streamlit run app.py
+- Create a `.env` file in the root directory and add:
+  ```
+  GEMINI_API_KEY=your_api_key_here
+  QDRANT_API_KEY=your_api_key_here
+  QDRANT_URL=your_qdrant_url_here
+  ```
+
+## Add Documents for Retrieval
+
+- Place the documents in the `docs` folder.
+
+## Run the Application
+
+- `streamlit run app.py`
+
